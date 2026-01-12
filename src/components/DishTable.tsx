@@ -29,6 +29,7 @@ export default function DishTable( { data } : { data: Dish[] } ) {
             
             {/* PENDIENTE: Valores a renderizar en cada celda  */}
             <TableCell align="right">{row.country}</TableCell>
+            <TableCell align="right">{row.rating}</TableCell>
             <TableCell align="right">{row.iconic}</TableCell>
             <TableCell align="right">{row.ingredients}</TableCell>
 
